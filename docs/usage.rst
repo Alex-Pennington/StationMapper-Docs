@@ -33,7 +33,7 @@ NCSPro
 Calculator
 --------
         - Select two stations by right clicking them or selecting them from the dropdown box.  Distance and bearing are automatically updated each time the station changes.
-
+\pagebreak
 Propagation Graphs
 --------
 
@@ -43,10 +43,10 @@ Propagation Graphs
         - Using the power selected in staiton parameters.
         - Graphs are displayed on the Progagation tab in the main windows.
         - Right clicking on the graph will allow you to close the graph.
-        
+
 .. image:: ../images/SMapper_v_42_PropagationTab.png
    :width: 604
-
+\pagebreak
 Coverage Area Overlays
 --------
 
@@ -58,8 +58,8 @@ Coverage Area Overlays
         - Right clicking on an overlay selection button will allow you to close an overlay.
 
 .. image:: ../images/SMapper_v_42_Coverage.png
-   :width: 604        
-
+   :width: 604
+\pagebreak
 Using the Mouse
 --------
 	- Left click centers the map in the point clicked.
