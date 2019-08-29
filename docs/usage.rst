@@ -35,6 +35,7 @@ Calculator
         - Select two stations by right clicking them or selecting them from the dropdown box.  Distance and bearing are automatically updated each time the station changes.
 
 .. raw:: latex
+
     \newpage
 Propagation Graphs
 --------
@@ -50,6 +51,7 @@ Propagation Graphs
    :width: 604
 
 .. raw:: latex
+
     \newpage
 Coverage Area Overlays
 --------
@@ -65,6 +67,7 @@ Coverage Area Overlays
    :width: 604
 
 .. raw:: latex
+
     \newpage
 Using the Mouse
 --------
