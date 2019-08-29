@@ -33,7 +33,9 @@ NCSPro
 Calculator
 --------
         - Select two stations by right clicking them or selecting them from the dropdown box.  Distance and bearing are automatically updated each time the station changes.
-\pagebreak
+
+.. raw:: latex
+    \newpage
 Propagation Graphs
 --------
 
@@ -46,7 +48,9 @@ Propagation Graphs
 
 .. image:: ../images/SMapper_v_42_PropagationTab.png
    :width: 604
-\pagebreak
+
+.. raw:: latex
+    \newpage
 Coverage Area Overlays
 --------
 
@@ -59,7 +63,9 @@ Coverage Area Overlays
 
 .. image:: ../images/SMapper_v_42_Coverage.png
    :width: 604
-\pagebreak
+
+.. raw:: latex
+    \newpage
 Using the Mouse
 --------
 	- Left click centers the map in the point clicked.
