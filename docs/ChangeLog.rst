@@ -5,6 +5,7 @@ v0.42
  - Added feature, cyclone tracks overlay.
  - Added file->exit menu per user request.
  - Changed update.exe to automatically start update and restart StationMapper per user request.
+ - Updated documentation to v0.42.
 
 v0.41
  - Added Maps for each region.
