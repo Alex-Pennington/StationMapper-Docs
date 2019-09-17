@@ -117,17 +117,16 @@ NCS Tab
                 - See previous example.
         - Using the mouse:
           - Roster right-click on station:
+           - Remove - removes station from roster.
+           - Ammend Traffic:
+             - Selecting Ammend traffic loads an input dialog.  Enter the traffic and click or or press enter.
+             - Example:
+               1R XKY 1R XZZ EWD
+           - Closed: Changes station status to closed and marks them out on the map.
+           - Return: Clears the station status.
+           - NCS: Changes Task to NCS.
+           - ANCS: Changes Task to NCS.
+           - Move Up and Down: Moves the station up or down in the roster.
 
 .. image:: ../images/SMapper_v5_NCS_Tab.PNG
-   :width: 604
-
-          - Remove - removes station from roster.
-          - Ammend Traffic:
-            - Selecting Ammend traffic loads an input dialog.  Enter the traffic and click or or press enter.
-            - Example:
-              1R XKY 1R XZZ EWD
-          - Closed: Changes station status to closed and marks them out on the map.
-          - Return: Clears the station status.
-          - NCS: Changes Task to NCS.
-          - ANCS: Changes Task to NCS.
-          - Move Up and Down: Moves the station up or down in the roster.
+   :width: 604           
