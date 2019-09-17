@@ -109,7 +109,7 @@ NCS Tab
               - Anywhere after the howcopy parameter a status entry can be made by enlosing any text in brackets [].
               - Example:
                 - ZZZ4AA [Close after traffic] 1R XKY 1R XZZ EWD
-                - ZZZ4AB T=4AA [Inclimate weather may close without notice] 1R XKY 1R AAA4KY1
+                - ZZZ4AB T=4AA [mobile]1R XKY
                 - ZZZ4AC [info for the net]
                 - ZZZ4AD WBR [EC1130Z]
             - Listing traffic at check-in (optional):
