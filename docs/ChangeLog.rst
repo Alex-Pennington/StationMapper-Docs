@@ -1,7 +1,48 @@
 -----------
 CHANGE LOG
 -----------
-v0.317 (Available via update)
+v0.42
+ - Added feature, cyclone tracks overlay.
+ - Added file->exit menu per user request.
+ - Changed update.exe to automatically start update and restart StationMapper per user request.
+ - Updated documentation to v0.42.
+
+v0.41
+ - Added Maps for each region.
+ - Added ability to delete Coverage Maps.
+
+v0.4
+ - Changed settings to ini file vs registry to make application more portable to off-line users.
+ - Added feature, propagation coverage area prediction map overlay.
+ - Added feature, channel reliability graph.
+
+V0.32
+ - Bug fix: Program crashed when displaying the notice text and an update was available.
+ - Updated Update.exe and StationMapper.exe to use SSL encryption when checking for updates.
+
+V0.3175
+ - Changed debug feature "Copy Roster Log to Debug Folder" to include encrypting snapshot.
+ - Added RI_ParkingLot_Tool.exe for use with MMv3->ParkingLot routing.  Strips RIs from FL2 for outgoing messages.
+
+V0.3174
+ - Added feature, check database for station CALLSIGN + /T, in case station was a /T when database was published.
+
+v0.3173
+ - Fixed bugs regarding change of stations not in database.
+ - Added feature stations not in the database now displayed over the Gulf of Mexico.
+ - Added feature 'returned' status now returns closed stations to normal display text.
+ - Added debug feature "Copy Roster Log to Debug Folder"
+
+v0.3172
+ - Added warning dialog to alert user if database is outdated or corrupt.
+ - Started adding --debug command line flag to output log.txt file.
+
+v0.3171
+ - Fixed bug stations deleted from ACPD NCS were not removed from map.
+ - Fixed bug corrected stations were not updated on map.
+ - Fixed a few log folder portability bugs.
+
+v0.317
  - Added ability to parse relayed by info from the "How Copy" field (using ACPDeluxe NCS)
  - Added lightning data(requires internet).  
  - Added tool tip display to some settings and statusbar items, more to follow.
@@ -47,7 +88,7 @@ v0.312
  - Removed 'show all stations' function.
  - Added ability to change map.  Additional maps can be user created or downloaded via update.
 
-v0.31 (Installer Version)
+v0.31
  - Using linked DLLs instead of standalone.exe files for coordinate conversion, results in a much faster conversion.
  - Update now allows for reinstall if major revision available.
  
