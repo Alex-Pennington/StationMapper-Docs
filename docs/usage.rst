@@ -119,8 +119,9 @@ NCS Tab
           - Roster right-click on station:
            - Remove - removes station from roster.
            - Ammend Traffic:
-           
+
 .. image:: ../images/AmmendTraffic.PNG
+:width: 604
 
              - Selecting Ammend traffic loads an input dialog.  Enter the traffic and click or or press enter.
              - Example:
