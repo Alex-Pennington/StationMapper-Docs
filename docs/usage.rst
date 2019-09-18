@@ -120,6 +120,7 @@ NCS Tab
            - Remove - removes station from roster.
         - Ammend Traffic:
         .. image:: ../images/AmmendTraffic.PNG
+            :alt: Ammend Traffic dialog
              - Selecting Ammend traffic loads an input dialog.  Enter the traffic and click or or press enter.
              - Example:
              - 1R XKY 1R XZZ EWD
