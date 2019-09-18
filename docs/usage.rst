@@ -121,15 +121,15 @@ NCS Tab
            - Ammend Traffic:
 
 .. image:: ../images/AmmendTraffic.PNG
-:width: 604
+   :width: 604
 
              - Selecting Ammend traffic loads an input dialog.  Enter the traffic and click or or press enter.
              - Example:
-               1R XKY 1R XZZ EWD
+             - 1R XKY 1R XZZ EWD
            - Closed: Changes station status to closed and marks them out on the map.
            - Return: Clears the station status.
-           - NCS: Changes Task to NCS.
-           - ANCS: Changes Task to NCS.
+           - NCS: Change Task to NCS.
+           - ANCS: Change Task to NCS.
            - Move Up and Down: Moves the station up or down in the roster.
 
 .. image:: ../images/SMapper_v5_NCS_Tab.PNG
