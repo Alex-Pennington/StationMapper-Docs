@@ -122,12 +122,8 @@ To enable the built-in roster tool select StationMapper as the NCS Application f
  - Roster right-click on station:
  - Remove - removes station from roster.
  - Ammend Traffic:
-
-.. image:: ../images/AmmendTraffic.PNG
-   :alt: Ammend Traffic dialog
-   
   - Selecting Ammend traffic loads an input dialog.  Enter the traffic and click or or press enter.
-   - Example: 1R XKY 1R XZZ EWD
+  - Example: 1R XKY 1R XZZ EWD
  - Closed: Change station status to closed and marks them out on the map.
  - Return: Clear the station status.
  - NCS: Change Task to NCS.
