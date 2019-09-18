@@ -93,42 +93,41 @@ To enable the built-in roster tool select StationMapper as the NCS Application f
  - F3 = Find.  This loads the find dialog.
 
 - Command text area:
- - To enter a station into the roster enter the callsign in the command area and press F6, Multiple entries can be make at once, seperated by line breaks.
-  - Example:
-   - ZZZ4AA
-   - ZZZ4AB
-   - ZZZ4AC
-   - ~Press F6~
- - Specifying HowCopy information at login (optional):
-  - The following are the only acceptable inputs for how copy: WBR,WR,R,GR,LC,T=XXX Where XXX is the abreviated callsign from the imported address.csv file.  HowCopy can only follow callsign.
-   - Example:
-    - ZZZ4AA GR
-    - ZZZ4AB
-    - ZZZ4AC LC
-    - ZZZ4AD T=4AA
-    - ~Press F6~
- - Listing additional status information at login (optional):
-   Anywhere after the howcopy parameter a status entry can be made by enlosing any text in brackets [].
-  - Example:
-   - ZZZ4AA [Close after traffic] 1R XKY 1R XZZ EWD
-   - ZZZ4AB T=4AA [mobile]1R XKY
-   - ZZZ4AC [info for the net]
-   - ZZZ4AD WBR [EC1130Z]
- - Listing traffic at check-in (optional):
-   - Traffic must come after either callsign or howcopy but can be listed before or after [status]:
-   - See previous example.
+        - To enter a station into the roster enter the callsign in the command area and press F6, Multiple entries can be make at once, seperated by line breaks.
+                - Example:
+                        - ZZZ4AA
+                        - ZZZ4AB
+                        - ZZZ4AC
+                        - ~Press F6~
+        - Specifying HowCopy information at login (optional):
+                - The following are the only valid inputs for how copy: WBR,WR,R,GR,LC,T=XXX Where XXX is the abreviated callsign from the imported address.csv file.  HowCopy can only follow callsign.
+                - Example:
+                        - ZZZ4AA GR
+                        - ZZZ4AB
+                        - ZZZ4AC LC
+                        - ZZZ4AD T=4AA
+                        - ~Press F6~
+        - Listing additional status information at login (optional): Anywhere after the howcopy parameter a status entry can be made by enlosing any text in brackets [].
+                - Example:
+                        - ZZZ4AA [Close after traffic] 1R XKY 1R XZZ EWD
+                        - ZZZ4AB T=4AA [mobile]1R XKY
+                        - ZZZ4AC [info for the net]
+                        - ZZZ4AD WBR [EC1130Z]
+        - Listing traffic at check-in (optional):
+                - Traffic must come after either callsign or howcopy but can be listed before or after [status]:
+                - See previous example.
 
 - Using the mouse:
- - Roster right-click on station:
- - Remove - removes station from roster.
- - Ammend Traffic:
-  - Selecting Ammend traffic loads an input dialog.  Enter the traffic and click or or press enter.
-  - Example: 1R XKY 1R XZZ EWD
- - Closed: Change station status to closed and marks them out on the map.
- - Return: Clear the station status.
- - NCS: Change Task to NCS.
- - ANCS: Change Task to NCS.
- - Move Up and Down: Moves the station up or down in the roster.
+        - Roster right-click on station:
+        - Remove - removes station from roster.
+        - Ammend Traffic:
+                - Selecting Ammend traffic loads an input dialog.  Enter the traffic and click or or press enter.
+                - Example: 1R XKY 1R XZZ EWD
+        - Closed: Change station status to closed and marks them out on the map.
+        - Return: Clear the station status.
+        - NCS: Change Task to NCS.
+        - ANCS: Change Task to NCS.
+        - Move Up and Down: Moves the station up or down in the roster.
 
 .. image:: ../images/SMapper_v5_NCS_Tab.PNG
    :width: 604
