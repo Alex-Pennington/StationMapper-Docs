@@ -94,17 +94,17 @@ NCS Tab
           - To enter a station into the roster enter the callsign in the command area and press F6, Multiple entries can be make at once, seperated by line breaks.
             - Example:
               - ZZZ4AA
-                ZZZ4AB
-                ZZZ4AC
-                ~Press F6~
+              - ZZZ4AB
+              - ZZZ4AC
+              - ~Press F6~
             - Specifying HowCopy information at login (optional):
               - The following are the only acceptable inputs for how copy: WBR,WR,R,GR,LC,T=XXX Where XXX is the abreviated callsign from the imported address.csv file.  HowCopy can only follow callsign.
               - Example:
                 - ZZZ4AA GR
-                  ZZZ4AB
-                  ZZZ4AC LC
-                  ZZZ4AD T=4AA
-                  ~Press F6~
+                - ZZZ4AB
+                - ZZZ4AC LC
+                - ZZZ4AD T=4AA
+                - ~Press F6~
             - Listing additional status information at login (optional):
               - Anywhere after the howcopy parameter a status entry can be made by enlosing any text in brackets [].
               - Example:
