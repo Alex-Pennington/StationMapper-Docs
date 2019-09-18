@@ -87,9 +87,11 @@ Changing Maps
 NCS Tab
 --------
 To enable the built-in roster tool select StationMapper as the NCS Application from the general tab in the Settings dialog.
+
 - Keyboard Shortcuts
  - F6 = Command Execute.  While in the command text area F6 executes the line(s) in the text box.  While in any other area of the application F6 brings the focus to the command text area.
  - F3 = Find.  This loads the find dialog.
+
 - Command text area:
  - To enter a station into the roster enter the callsign in the command area and press F6, Multiple entries can be make at once, seperated by line breaks.
   - Example:
@@ -115,12 +117,15 @@ To enable the built-in roster tool select StationMapper as the NCS Application f
  - Listing traffic at check-in (optional):
    - Traffic must come after either callsign or howcopy but can be listed before or after [status]:
    - See previous example.
+
 - Using the mouse:
  - Roster right-click on station:
  - Remove - removes station from roster.
  - Ammend Traffic:
+
 .. image:: ../images/AmmendTraffic.PNG
    :alt: Ammend Traffic dialog
+   
   - Selecting Ammend traffic loads an input dialog.  Enter the traffic and click or or press enter.
    - Example: 1R XKY 1R XZZ EWD
  - Closed: Change station status to closed and marks them out on the map.
