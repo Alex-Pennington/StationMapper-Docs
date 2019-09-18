@@ -121,7 +121,7 @@ NCS Tab
            - Ammend Traffic:
 
 .. image:: ../images/AmmendTraffic.PNG
-
+:
 
              - Selecting Ammend traffic loads an input dialog.  Enter the traffic and click or or press enter.
              - Example:
