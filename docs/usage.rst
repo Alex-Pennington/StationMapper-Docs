@@ -121,7 +121,8 @@ NCS Tab
            - Ammend Traffic:
 
 .. figure:: ../images/AmmendTraffic.PNG
-
+   This is the input dialog.
+   
              - Selecting Ammend traffic loads an input dialog.  Enter the traffic and click or or press enter.
              - Example:
              - 1R XKY 1R XZZ EWD
