@@ -9,7 +9,6 @@ General Parameters Tab
 
 .. image:: ../images/Settings_General.png
    :width: 476
-
 Settings_General.png
 
  - Select NCS Application
