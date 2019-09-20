@@ -9,8 +9,7 @@ General Parameters Tab
 
 .. image:: ../images/Settings_General.png
    :width: 476
-Settings_General.png
-
+General
  - Select NCS Application
 	 - Choose from:
 		 - ACP Deluxe NCS
@@ -50,6 +49,9 @@ Settings_General.png
 Station Tab
 --------
 
+.. image:: ../images/Settings_Station.png
+   :width: 476
+Station
  - Call sign
 	 - This is used for the centerpoint of the lightning summary radius and propagation coverage overlay.  This uses the location for the call sign from the database.
 	 - Latitude/Longitude this is preffered over call sign for centerpoint of the lightning search radius.
@@ -63,9 +65,6 @@ Station Tab
 	 - Used to produce the Channel Reliability Graph.
  - Transmit Antenna Model
 	 - These are taken directly from the VOACAP library.  Users that have experiance with creating VOACAP antenna models can place their custom models in the samples folder and they will be loaded automatically during startup.
-
-.. image:: ../images/Settings_Station.png
-   :width: 476
 
 .. raw:: latex
 

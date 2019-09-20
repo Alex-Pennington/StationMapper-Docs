@@ -5,15 +5,18 @@ StationMapper was created to allow stations to gauge the band conditions relativ
 Features
 --------
 - Update uses pgp signature checking.
-- Integrates with StationManagerV2 NCSPro and ACPDeluxe NCS.
-- Stand alone NCS roster tool.
-- Integrated Terminal compatable with v3 RMI.
+- Integrates with StationManager NCSPro, ACPDeluxe NCS, or integrated NCS roster tool.
+- Integrated terminal compatable with v3 RMI.
 - Import a custom csv with city,st data (requires internet).
 - Map display uses mouse to drag, center, and zoom map.
 - Maps can be user created or downloaded via update.
 - Calculator toolbar for distance and azimuth between two stations.
-- Weather radar and lightning map overlay.
+- Weather radar, alert area, cyclone track, and lightning map overlay.
 - Lightning near warning indicator.
+- Integrated with VOACAP Propagation analysis tool.
+	- Propagation coverage heatmap overlay.
+	- Frequency and Channel propagation prediction graph.
+- Generates COMSPOT and turnover logs.
 
 Contribute
 ----------
@@ -32,7 +35,6 @@ Applications
 
 This license agreement applies to the following software ("Applications"):
  - StationMapper
- - StationMapper Update
  - Advanced Database Creation Tool
 
 Copyright
