@@ -5,7 +5,9 @@ StationMapper was created to allow stations to gauge the band conditions relativ
 Features
 --------
 - Update uses pgp signature checking.
-- Integrate with StationManagerV2 NCSPro and ACPDeluxe NCS.
+- Integrates with StationManagerV2 NCSPro and ACPDeluxe NCS.
+- Stand alone NCS roster tool.
+- Integrated Terminal compatable with v3 RMI.
 - Import a custom csv with city,st data (requires internet).
 - Map display uses mouse to drag, center, and zoom map.
 - Maps can be user created or downloaded via update.

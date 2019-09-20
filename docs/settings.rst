@@ -7,11 +7,11 @@ Configuration of settings is done through the menu Configure->Settings function.
 General Parameters Tab
 --------
 
-.. image:: ../images/Settings_General.png
-   :width: 476
-
  - Select NCS Application
-   - Choose either 'ACP Deluxe NCS' or 'StationManager v2 NCSPro'
+   - Choose from:
+     - ACP Deluxe NCS
+     - StationManager v2 NCSPro
+     - StationMapper
    - Changing this setting forces StationMapper to restart.
 
  - Select ACP Deluxe Folder
@@ -42,12 +42,12 @@ General Parameters Tab
       - Displays the solar terminator on the map.
       - Currently a single line moving across the screen. (v0.316)
       - Will provide more options for this feature at a later time.
+      
+.. image:: ../images/Settings_General.png
+   :width: 476
 
 Station Tab
 --------
-
-.. image:: ../images/Settings_Station.png
-   :width: 476
 
    - Call sign
      - This is used for the centerpoint of the lightning summary radius and propagation coverage overlay.  This uses the location for the call sign from the database.
@@ -63,11 +63,11 @@ Station Tab
    - Transmit Antenna Model
      - These are taken directly from the VOACAP library.  Users that have experiance with creating VOACAP antenna models can place their custom models in the samples folder and they will be loaded automatically during startup.
 
+.. image:: ../images/Settings_Station.png
+   :width: 476
+
 Weather Tab
 --------
-
-.. image:: ../images/Settings_Weather.png
-   :width: 476
 
    This feature is a limited resource, by signing up for your own AerisWeather.com developer account you can ease the burden on the developer of StationMapper (Please do this if you use this feature).  The account is free but requires renewal every two months.
    - Radar Checkbox
@@ -87,11 +87,11 @@ Weather Tab
    - SecretID
       - Provided by AerisWeather.com developer account.
 
+.. image:: ../images/Settings_Weather.png
+   :width: 476
+
 Database Tab
 --------
-
-.. image:: ../images/Settings_Database.png
-   :width: 476
 
    - Import address.csv
       - Selects address.csv file to import.  On slower computer a progress dialog may display while the import is preformed.
@@ -100,3 +100,6 @@ Database Tab
    - Advanced
       - Starts the 'Advanced Database Tool'
       - Use this tool to import a user created CSV file with City, ST data.  Preforms an online lokup of City,St data and merges the result into the StationManager "Working_DB"
+
+.. image:: ../images/Settings_Database.png
+   :width: 476
