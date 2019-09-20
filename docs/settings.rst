@@ -7,6 +7,9 @@ Configuration of settings is done through the menu Configure->Settings function.
 General Parameters Tab
 --------
 
+.. image:: ../images/Settings_General.png
+   :width: 476
+
  - Select NCS Application
 	 - Choose from:
 		 - ACP Deluxe NCS
@@ -25,7 +28,7 @@ General Parameters Tab
 		 - May be removed in future versions and set to on permanantly.
 		 - For users with small screens or many windows open at once.
 	 - Calculator
-	 - Selects if calculator is displayed on map window.
+		 - Selects if calculator is displayed on map window.
 		 - Changing this setting forces StationMapper to restart.
 	 - Font Button
 		 - Displays font selection window.
@@ -39,10 +42,7 @@ General Parameters Tab
 		 - Displays the solar terminator on the map.
 		 - Currently a single line moving across the screen. (v0.316)
 		 - Will provide more options for this feature at a later time.
-      
-.. image:: ../images/Settings_General.png
-   :width: 476
-   
+
 .. raw:: latex
 
     \newpage
