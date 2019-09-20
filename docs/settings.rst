@@ -72,6 +72,8 @@ Station
 Weather Tab
 --------
 
+.. image:: ../images/Settings_Weather.png
+   :width: 476
 This feature is a limited resource, by signing up for your own AerisWeather.com developer account you can ease the burden on the developer of StationMapper (Please do this if you use this feature).  The account is free but requires renewal every two months.
  - Radar Checkbox
 	 - Displays weather radar overlay on map.
@@ -90,15 +92,14 @@ This feature is a limited resource, by signing up for your own AerisWeather.com 
  - SecretID
 	 - Provided with AerisWeather.com developer account.
 
-.. image:: ../images/Settings_Weather.png
-   :width: 476
-
 .. raw:: latex
 
     \newpage
 Database Tab
 --------
-
+.. image:: ../images/Settings_Database.png
+   :width: 476
+Database
  - Import address.csv
 	 - Selects address.csv file to import.  On slower computer a progress dialog may display while the import is preformed.
  - Import channel.csv
@@ -106,6 +107,3 @@ Database Tab
  - Advanced
 	 - Starts the 'Advanced Database Tool'
 	 - Use this tool to import a user created CSV file with City, ST data.  Preforms an online lokup of City,St data and merges the result into the StationManager "Working_DB"
-
-.. image:: ../images/Settings_Database.png
-   :width: 476
