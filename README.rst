@@ -65,10 +65,12 @@ KYHiTech.com grants a non-exclusive, limited license to all Licensees, when auth
 This license is immediately rescinded when a Licensee is no longer authorized to perform functions of an official capacity and said Licensee is to immediately cease using and delete and destroy the Applications on all media and storage devices under their control.
 
 Warranty
+
 The Applications are provided as is with no warranty of any kind, including the warranty of design, merchantability and fitness for a particular purpose.
 
 Contact Information
-If you have any questions about this Agreement, please contact us:
+
+If you have any questions about this Agreement, please contact us.
 alex.pennington@KYHiTech.com
 
 END OF EULA
