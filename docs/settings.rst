@@ -13,15 +13,12 @@ General Parameters Tab
      - StationManager v2 NCSPro
      - StationMapper
    - Changing this setting forces StationMapper to restart.
-
  - Select ACP Deluxe Folder
    - Enter the root folder for ACPDeluxe or click '...' to select one from a dialog window.
    - The default value is "C:/MSC/ACP Deluxe/"
-
  - Select Station Manager V2 Folder
    - Enter the PENDING_OUT folder for SMv2 or click '...' to select one from a dialog window.
    - the default value is "C:/MSC/StationManagerV2/PENGING_OUT"
-
  - Settings
    - Preserve Aspect Ratio
       - Selects weather the map is forced to preserve the aspect ratio when the window is resized.
@@ -45,7 +42,10 @@ General Parameters Tab
       
 .. image:: ../images/Settings_General.png
    :width: 476
+   
+.. raw:: latex
 
+    \newpage
 Station Tab
 --------
 
@@ -66,6 +66,9 @@ Station Tab
 .. image:: ../images/Settings_Station.png
    :width: 476
 
+.. raw:: latex
+
+    \newpage
 Weather Tab
 --------
 
@@ -90,6 +93,9 @@ Weather Tab
 .. image:: ../images/Settings_Weather.png
    :width: 476
 
+.. raw:: latex
+
+    \newpage
 Database Tab
 --------
 
