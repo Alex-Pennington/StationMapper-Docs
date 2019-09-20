@@ -4,23 +4,24 @@ Usage
 
 Starting StationMapper
 --------
-	- Start StationMapper from the Windows Start menu or desktop shortcut.
-	- If you are not using the internal NCS tool, start your preffered NCS Application.
-		- NCSPro.exe - StationManager
-		- NCS.exe - ACPDeluxe Suite
 
 .. image:: ../images/SMapper_v_42.png
    :width: 604
+Image of Version 0.42
+ - Start StationMapper from the Windows Start menu or desktop shortcut.
+ - If you are not using the internal NCS tool, start your preffered NCS Application.
+		- NCSPro.exe - StationManager
+		- NCS.exe - ACPDeluxe Suite
 
 ACPDeluxe
 --------
 	Use ACPDeluxe as described in the instructions provided with it.
-	
+
  - Features
  	- Stations marked as closed (status collumn) apear in red and crossed out.
 	- Stations with a 'relayed by' status (T=4ZZ) are connected to their relay by a dot-dash line.
 		- Lines are color coded to identify the station relaying. i.e., If ZZZ4ZZ relays 4AA and 4AB the lines running from 4ZZ to 4AA and 4AB are the same color.
-		
+
 NCSPro
 --------
 	Use NCSPro as described in it's documentation.
@@ -40,6 +41,10 @@ Calculator
 Propagation Graphs
 --------
 
+.. image:: ../images/SMapper_v_42_PropagationTab.png
+   :width: 604
+Right clicking a graph will allow you to close it.
+
  - Graphs are calculated based on:
         - The entered noise floor in dBm.
         - Using ideal horizontal dipoles pointed at each other.
@@ -47,14 +52,15 @@ Propagation Graphs
         - Graphs are displayed on the Progagation tab in the main windows.
         - Right clicking on the graph will allow you to close the graph.
 
-.. image:: ../images/SMapper_v_42_PropagationTab.png
-   :width: 604
-
 .. raw:: latex
 
     \newpage
 Coverage Area Overlays
 --------
+
+.. image:: ../images/SMapper_v_42_Coverage.png
+   :width: 604
+Overlays are generated using the VOACAP tool created by Goerge Hand.
 
  - Overlays
         - When you click the Coverage button you will be asked for the channel you want the overlay for.
@@ -62,9 +68,6 @@ Coverage Area Overlays
         - You can change the current overlay by clicking on the selector buttons under the claculator row.
         - The button highlighted in green is the currently displayed overlay.
         - Right clicking on an overlay selection button will allow you to close an overlay.
-
-.. image:: ../images/SMapper_v_42_Coverage.png
-   :width: 604
 
 .. raw:: latex
 
@@ -86,6 +89,10 @@ Changing Maps
 
 NCS Tab
 --------
+
+.. image:: ../images/SMapper_v5_NCS_Tab.PNG
+   :width: 604
+
 To enable the built-in roster tool select StationMapper as the NCS Application from the general tab in the Settings dialog.
 
  - Keyboard Shortcuts
@@ -131,6 +138,3 @@ To enable the built-in roster tool select StationMapper as the NCS Application f
         - NCS: Change Task to NCS.
         - ANCS: Change Task to NCS.
         - Move Up and Down: Moves the station up or down in the roster.
-
-.. image:: ../images/SMapper_v5_NCS_Tab.PNG
-   :width: 604
