@@ -8,14 +8,14 @@ General Parameters Tab
 --------
 
  - Select NCS Application
-   - Choose from:
-     - ACP Deluxe NCS
-     - StationManager v2 NCSPro
-     - StationMapper
-   - Changing this setting forces StationMapper to restart.
+	 - Choose from:
+		 - ACP Deluxe NCS
+		 - StationManager v2 NCSPro
+		 - StationMapper
+ - Changing this setting forces StationMapper to restart.
  - Select ACP Deluxe Folder
-   - Enter the root folder for ACPDeluxe or click '...' to select one from a dialog window.
-   - The default value is "C:/MSC/ACP Deluxe/"
+	 - Enter the root folder for ACPDeluxe or click '...' to select one from a dialog window.
+	 - The default value is "C:/MSC/ACP Deluxe/"
  - Select Station Manager V2 Folder
    - Enter the PENDING_OUT folder for SMv2 or click '...' to select one from a dialog window.
    - the default value is "C:/MSC/StationManagerV2/PENGING_OUT"
