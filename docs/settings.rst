@@ -4,11 +4,11 @@ Configuration
 
 Configuration of settings is done through the menu Configure->Settings function.
 
-General Parameters Tab
---------
-
 .. image:: ../images/Settings_General.png
    :width: 476
+
+General Parameters Tab
+--------
 
  - Select NCS Application
 	 - Choose from:

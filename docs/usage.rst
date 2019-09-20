@@ -5,10 +5,9 @@ Usage
 Starting StationMapper
 --------
 	- Start StationMapper from the Windows Start menu or desktop shortcut.
-	- Start your preffered NCS Application
-		- NCSPro.exe - StationManagerV2 Suite
+	- If you are not using the internal NCS tool, start your preffered NCS Application.
+		- NCSPro.exe - StationManager
 		- NCS.exe - ACPDeluxe Suite
-		- Internal StationMapper NCS tool.
 
 .. image:: ../images/SMapper_v_42.png
    :width: 604
