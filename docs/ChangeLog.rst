@@ -1,6 +1,25 @@
 -----------
 CHANGE LOG
 -----------
+v5.0
+ - Added feature, Internal NCS Roster Tool.
+ - Added feature, COMSPOT creation.
+ - Added feature, NCS turnover message.
+ - Added feature, MSCv3 compatable terminal.
+ - Added feature, automatic import of updated database, address.csv or channels.csv.
+ - Changed notes tab to scratchpad.
+ - Added feature, Spell checking of scratchpad and orderwire text.
+ - Updated, update.exe to only allow one instance at a time.  Due to the sometimes lengthy wait for it to start, caused by the MIT keyserver congestion.
+
+v0.43
+ - Added feature, Initial setup settings wizard.
+ - Added feature, Clicking the 'Update Avaliable' status lable now calls the update function.
+ - Fixed bug, window geometry was incorrect after saving settings.
+ - Added feature, Lat/Long Lookup from address used with lightning warning feature.
+ - Added feature, check if imported databases (address.csv or channels.csv) have been updates and import new database.
+ - Added feature, notes tab, simple notepad.
+ - Added feature, Debug log tab.
+ 
 v0.42
  - Added feature, cyclone tracks overlay.
  - Added file->exit menu per user request.

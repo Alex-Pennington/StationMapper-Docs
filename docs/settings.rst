@@ -97,13 +97,13 @@ Weather data & imagery powered by AerisWeather.
     \newpage
 Database Tab
 --------
-.. image:: ../images/Settings_Database.png
+.. image:: ../images/Settings_Database_v0_50.png
    :width: 476
-Database
- - Import address.csv
-	 - Selects address.csv file to import.  On slower computer a progress dialog may display while the import is preformed.
- - Import channel.csv
-	 - Imports the channel database channel.csv.
+This tab identifies the databases that have been imported and the time of their last modification.  When these files are updated StationMapper will detect the update and import the new database.
+ - address.csv
+	 - "..." Selects address.csv file to import.  On a slower computer a progress dialog may display while the import is preformed.
+ - channel.csv
+	 - "..." Imports the channel database channel.csv.
  - Advanced
 	 - Starts the 'Advanced Database Tool'
 	 - Use this tool to import a user created CSV file with City, ST data.  Preforms an online lokup of City,St data and merges the result into the StationManager "Working_DB"
