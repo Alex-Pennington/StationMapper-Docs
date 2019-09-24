@@ -176,6 +176,6 @@ Terminal Tab
    :width: 604
 
 This tab is based on GPL Source code for v3Terminal provided at "http://www.usarmymars.org/resources/software".  At this time please refer to the documentation provided by MSCv3 for setup and usage.  Only the major functionality changes are detailed in this document.  This functionality will be expanded in future releases and complete documentation will be provided when time permits.
-- Differences from the v3Terminal included with MCSv3
+ - Differences from the v3Terminal included with MCSv3
 	- Orderwire text box includes spell checking.
 	- Settings have been moved to the Settings->Terminal dialog.

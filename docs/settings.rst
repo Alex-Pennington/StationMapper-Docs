@@ -14,7 +14,7 @@ General
 	 - Choose from:
 		 - ACP Deluxe NCS
 		 - StationManager v2 NCSPro
-		 - StationMapper
+		 - StationMapper (Build-in NCS Roster tool)
 		 - Changing this setting forces StationMapper to restart.
  - Select ACP Deluxe Folder
 	 - Enter the root folder for ACPDeluxe or click '...' to select one from a dialog window.
@@ -74,7 +74,7 @@ Weather Tab
 
 .. image:: ../images/Settings_Weather.png
    :width: 476
-This feature is a limited resource, by signing up for your own AerisWeather.com developer account you can ease the burden on the developer of StationMapper (Please do this if you use this feature).  The account is free but requires renewal every two months.
+Weather data & imagery powered by AerisWeather.
  - Radar Checkbox
 	 - Displays weather radar overlay on map.
  - Lightning Strikes
@@ -107,3 +107,16 @@ Database
  - Advanced
 	 - Starts the 'Advanced Database Tool'
 	 - Use this tool to import a user created CSV file with City, ST data.  Preforms an online lokup of City,St data and merges the result into the StationManager "Working_DB"
+
+.. raw:: latex
+
+    \newpage
+NCS Tab
+--------
+
+Use this tab to enter settings for generating a COMSPOT.
+
+Terminal Tab
+--------
+
+Refer to v3Terminal documentation provided by MSCv3 suite for documentation of the settings.  Complete documentation of this implimentation will follow when time permits.
