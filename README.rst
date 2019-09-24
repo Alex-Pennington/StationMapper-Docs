@@ -1,17 +1,26 @@
 StationMapper
 ========
+
+.. image:: ../images/SMapper_v_42.png
+   :width: 604
+
 StationMapper was created to allow stations to gauge the band conditions relative to the distance between stations, visually.  After installation the software requires no internet connection to preform its base functions.
 
 Features
 --------
 - Update uses pgp signature checking.
-- Integrate with StationManagerV2 NCSPro and ACPDeluxe NCS.
+- Integrates with StationManager NCSPro, ACPDeluxe NCS, or integrated NCS roster tool.
+- Integrated terminal compatable with v3 RMI.
 - Import a custom csv with city,st data (requires internet).
 - Map display uses mouse to drag, center, and zoom map.
 - Maps can be user created or downloaded via update.
 - Calculator toolbar for distance and azimuth between two stations.
-- Weather radar and lightning map overlay.
+- Weather radar, alert area, cyclone track, and lightning map overlay.
 - Lightning near warning indicator.
+- Integrated with VOACAP Propagation analysis tool.
+	- Propagation coverage heatmap overlay.
+	- Frequency and Channel propagation prediction graph.
+- Generates COMSPOT and turnover logs.
 
 Contribute
 ----------
@@ -30,7 +39,6 @@ Applications
 
 This license agreement applies to the following software ("Applications"):
  - StationMapper
- - StationMapper Update
  - Advanced Database Creation Tool
 
 Copyright
@@ -61,10 +69,12 @@ KYHiTech.com grants a non-exclusive, limited license to all Licensees, when auth
 This license is immediately rescinded when a Licensee is no longer authorized to perform functions of an official capacity and said Licensee is to immediately cease using and delete and destroy the Applications on all media and storage devices under their control.
 
 Warranty
+
 The Applications are provided as is with no warranty of any kind, including the warranty of design, merchantability and fitness for a particular purpose.
 
 Contact Information
-If you have any questions about this Agreement, please contact us:
+
+If you have any questions about this Agreement, please contact us.
 alex.pennington@KYHiTech.com
 
 END OF EULA
