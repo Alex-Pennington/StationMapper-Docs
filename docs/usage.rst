@@ -66,9 +66,6 @@ Overlays are generated using the VOACAP tool created by Goerge Hand.
         - The button highlighted in green is the currently displayed overlay.
         - Right clicking on an overlay selection button will allow you to close an overlay.
 
-.. raw:: latex
-
-    \newpage
 Using the Mouse
 --------
 	- Left click centers the map in the point clicked.
@@ -84,6 +81,9 @@ Changing Maps
 	- Users can create their own maps using an EPSG:3857 projection saved as a bmp (bitmap) file.
 		- More info to follow.  This is not a simple process but users who are interested should start by downloading QGIS and creating a EPSG:3857 projection.
 
+.. raw:: latex
+
+    \newpage
 NCS Tab
 --------
 
@@ -142,7 +142,9 @@ To enable the built-in roster tool select StationMapper as the NCS Application f
 	        - NCS: Change Task to NCS.
 	        - ANCS: Change Task to NCS.
 	        - Move Up and Down: Moves the station up or down in the roster.
+.. raw:: latex
 
+    \newpage
 Scratchpad Tab
 --------
 
