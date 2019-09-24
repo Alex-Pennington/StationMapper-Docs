@@ -123,15 +123,44 @@ To enable the built-in roster tool select StationMapper as the NCS Application f
 
  - Using the mouse:
         - Roster right-click on station:
-        - Remove - removes station from roster.
-        - Ammend Traffic:
-                - Selecting Ammend traffic loads an input dialog.
-                - Enter the traffic and click or or press enter.
-                        - Examples:
-                          - 1R XKY 1R XZZ EWD
-                          - 1R M4A
-        - Closed: Change station status to closed and marks them out on the map.
-        - Return: Clear the station status.
-        - NCS: Change Task to NCS.
-        - ANCS: Change Task to NCS.
-        - Move Up and Down: Moves the station up or down in the roster.
+        	- Send Roster to Scratchpad
+        		- Creates a NCSPro.exe style turnover roster and sends it to scratchpad.
+        	- Send roster to Terminal
+			- Creates a NCSPro.exe style turnover roster and sends it to the terminal window.
+		- Send COMSPOT
+			- Starts the COMSPOT creation wizard and sends the results to scratchpad.
+			- Uses values from the wizard and values set in the Settings->NCS dialog.
+        	- Remove - removes station from roster.
+	        - Ammend Traffic:
+        	        - Selecting Ammend traffic loads an input dialog.
+	                - Enter the traffic and click or or press enter.
+	                        - Examples:
+	                          - 1R XKY 1R XZZ EWD
+	                          - 1R M4A
+	        - Closed: Change station status to closed and marks them out on the map.
+	        - Return: Clear the station status.
+	        - NCS: Change Task to NCS.
+	        - ANCS: Change Task to NCS.
+	        - Move Up and Down: Moves the station up or down in the roster.
+
+Scratchpad Tab
+--------
+
+.. image:: ../images/SMapper_v5_Scratchpad_Tab.PNG
+   :width: 604
+
+Use this area to take notes prepare traffic for relay.
+
+- Syntax Highlighting:
+	- Syntax is highlighted based on REGEX rules embedded in the source code.  Future releases will give the user the ability to edit this.
+- Spell Checking
+	- Words not in the syntax rules or in the dictionary are underlined with a red squigle.
+- Using the mouse:
+	- Add Word
+		- Adds unknown word to dictionary.
+	- Word suggestion list.
+		- Click on a sugested word to replace the text underlined by the spell checker.
+	- Send to Terminal
+		- Sends the entire contents of scratchpad to the terminal window.
+	- Send selected
+		- Sends the selected text to the terminal window.
