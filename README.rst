@@ -21,6 +21,8 @@ Features
 	- Propagation coverage heatmap overlay.
 	- Frequency and Channel propagation prediction graph.
 - Generates COMSPOT and turnover logs.
+- Auto import roster, from terminal or file drag/drop.
+- Orderwire/Scratchpad spellchecking and syntax highlighting.
 
 Contribute
 ----------
