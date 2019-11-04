@@ -1,6 +1,32 @@
 -----------
 CHANGE LOG
 -----------
+-------------------
+CHANGELOG
+-------------------
+v0.504
+ - Fixed bug, closing overlay button cause crash in specific situations.
+ - Changed distance unit to miles.
+ - Added feature, roster imports now include NCS and ANCS tasking.
+ - Added feature, store coverage overlay channel selection in dropdown list.
+ - Fixed bug, correcting callsign failed in some specific instances. (Found in DB-> Not found in DB)
+
+v0.503
+ - Fixed bug, pressing F6 on empty command window caused crash.
+ - Added placehoder text to command text area.
+
+v0.502
+ - Minor bug fixes and typos.
+
+v0.501
+ - Added message number digit count checking to COMSPOT generator.
+ - Changed Calculator and propagation overlay toolbar to only be shown on map and Popagation tab.
+ - Added MSG Number digit checking for COMSPOT generation.
+ - Added feature, 'Remove' action to traffic context menu (right mouse click).
+ - Changed, channel.csv import will now skip blank lines instead of reporting error.
+ - Added feature, Auto import roster from terminal.
+ - Added feature, drag/drop roster to command area and import.
+
 v5.0
  - Added feature, Internal NCS Roster Tool.
  - Added feature, COMSPOT creation.
@@ -19,7 +45,7 @@ v0.43
  - Added feature, check if imported databases (address.csv or channels.csv) have been updates and import new database.
  - Added feature, notes tab, simple notepad.
  - Added feature, Debug log tab.
- 
+
 v0.42
  - Added feature, cyclone tracks overlay.
  - Added file->exit menu per user request.
