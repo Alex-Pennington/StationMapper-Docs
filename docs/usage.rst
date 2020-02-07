@@ -204,10 +204,3 @@ As an example: The service code KY_MARS, passphrase protected, is being used to 
 
 .. image:: ../images/SMapper_v_6_Debug.png
    :width: 279
-
-- Service Codes:
-	- Service codes are used by MARS Staff members to publish document libraries such as schedules and netplans that my need regular updating.  StationMaller-Library offers a single point for collection authors and stations to keep documentation current.
-- Upload file feature:
-	- Currently in the debug menu.  MARS staff may use the upload feature to push documents to the server for processing.
-- Passcode protection:
-	- MARS staff may request sensitive libraries be passcode protected.  Single key symetric encryption is performed using gpg4win.
