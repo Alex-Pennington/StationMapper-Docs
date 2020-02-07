@@ -15,8 +15,10 @@ General
 		 - Allows users with visual imparments to select styles that work for them.
 .. image:: ../images/SMapper_v6_QSS_Dark_Blue_Scratchpad_Tab_COMSPOT.PNG
    :width: 758
+
 .. image:: ../images/SMapper_v6_QSS_Orange_Scratchpad_Tab_COMSPOT.PNG
    :width: 758
+   
  - Select NCS Application
 	 - Choose from:
 		 - ACP Deluxe NCS
