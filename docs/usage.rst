@@ -185,7 +185,7 @@ This tab is based on GPL Source code for v3Terminal provided at "http://www.usar
 NOAA (Space Weather) Tab
 --------
 
-.. image:: ../images/SMapper_v_6_NOAATab.PNG
+.. image:: ../images/SMapper_v_6_NOAATab.png
    :width: 604
 
 NOAA - Space and Geophysical data is updated from the noaa website via proxy and requires an internet connection to www.kyhitech.com.
@@ -195,10 +195,15 @@ NOAA - Space and Geophysical data is updated from the noaa website via proxy and
 Library Tab
 --------
 
-.. image:: ../images/SMapper_v_6_LibraryTab.PNG
+.. image:: ../images/SMapper_v_6_LibraryTab.png
    :width: 604
 
-These documents are updated from the server based on the service codes entered in the general settings tab.
+Concept of operation:  The library tab in essence is a file explorer window.  Double clicking on a file has the same effect as doublclicking a file in windows explorer (i.e. clicking a pdf opens Adobe, clicking a pickture opens MS Paint) as defined by your windows settings.  Files are added and updated by the use of service codes.  The service code ALL_MARS is added by default.  The ALL_MARS library contains the AM5 and ACP document sets.  When these files are updated on the website www.usarmymars.org they will be updated in the library.
+
+As an example: The service code KY_MARS, passphrase protected, is being used to publish the NCS and Message Center schedules.  When the KY staff wish to make an update to the library they can use the feature:
+
+.. image:: ../images/SMapper_v_6_Debug.png
+   :width: 279
 
 - Service Codes:
 	- Service codes are used by MARS Staff members to publish document libraries such as schedules and netplans that my need regular updating.  StationMaller-Library offers a single point for collection authors and stations to keep documentation current.
