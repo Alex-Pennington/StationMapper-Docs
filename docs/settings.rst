@@ -106,6 +106,10 @@ NCS Tab
 --------
 .. image:: ../images/Settings_NCS.png
    :width: 476
+
+.. raw:: latex
+
+    \newpage
 Use this tab to enter settings for generating a COMSPOT.
 
 Terminal Tab
@@ -113,3 +117,17 @@ Terminal Tab
 .. image:: ../images/Settings_Terminal.png
    :width: 476
 Refer to v3Terminal documentation provided by MSCv3 suite for documentation of the settings.  Complete documentation of this implimentation will follow when time permits.
+ - Show Terminal
+	 - Displays weather radar overlay on map.
+ - Guarded Call Sign
+	 - Displays a small circle on the map denoting the strike location Updates every 5 minutes with information for the last 5 minute period.
+ - Position ID
+	 - Displays an overlay of any cyclone tracks and error cones that are active.
+ - Save to disk
+	 - Save all received text to files in the received file folder.
+	 - Must Contain VZCZMMM
+		 - Received text must contain VZCZMMM to be safed.  This attempts to filter out non-message traffic.
+	 - Received file folder:
+	 	 - Location to automatically store received text.
+ - Auto-Import Roster
+ 	 - Automatically imports the turnover roster produced by NCSPro.exe and the roster produced by ACP Deluxe NCS.exe
