@@ -76,8 +76,8 @@ Using the Mouse
 
 Changing Maps
 --------
-	From the menu select Configure->Choose Map
-	- From this menu select the map you want displayed.
+From the Map tab
+	- select the map you would like displayed (R1 - R10, CONUS)
 	- Users can create their own maps using an EPSG:3857 projection saved as a bmp (bitmap) file.
 		- More info to follow.  This is not a simple process but users who are interested should start by downloading QGIS and creating a EPSG:3857 projection.
 
