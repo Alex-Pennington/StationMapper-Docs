@@ -1,9 +1,62 @@
------------
-CHANGE LOG
------------
 -------------------
 CHANGELOG
 -------------------
+v0.6
+Created Installer
+Moved settings back to floating dialog to allow main window to get smaller.
+Added default address database of fictional call signs ZZZ4AA - ZZZ4BE.
+
+V0.552
+Added feature, Library tab - allows quick refrence to published material.
+Added feature, Service Codes - allows custom librarys to be automatically downloaded and updated from server. i.e., Each state SMD could supply a zip file for the state containing all the templates and documentation required for all stations.
+Added feature, Library service code upload.  Used to upload documents to the server for review.
+
+v0.540
+Added feature, use proxy weather image. (To simplify firewall rules allow www.KYHiTech.com)
+Added feature, AM6 Annex H Authorization Table PDF import and lookup.
+
+v0.531
+Fixed, received file name error.
+
+v0.530
+Added feature, display text reports and notices from the NOAA Space Weather website.
+Updated all fonts to anti-aliased.  Should be a bit easier on the eyes.
+Added feature, anntenna models for VOACAP, various length and height loops.
+
+v0.520
+Added feature, use acpdeluxe.ini for message number for comspot, and increase by one.  Active if ACPDeluxe directory setting not NULL.
+Added feature, remember NET IDs for COMSPOT.
+Added feature, QSY via MARS-ALE Telenet CMD Port (127.0.0.1:23).  Use the QRG generator in the Settings-->Database tab to generate StationMapperAUTO.QRG in the MARS-ALE root folder.  Use the fill function within MARS-ALE to import the created file.  This feature uses channle group 15.
+
+v0.513
+Fixed bug, VZCZMMM matching for saving received messages.
+
+v0.512
+Added feature, switch Scratchpad between floating window or tab.
+Added feature, syntax highlighter rules exposed in settings.
+Changed settings to a tab on the main window.
+Added feature, lastRX to scratchpad, loads last received checksum passed transmission.
+
+v0.510
+Added feature, use Qss style sheets that come with MSC Suite.
+
+v0.508
+Updated, Scratchpad tab with tree view file manager interface and QSL-RI button.  Be sure to set your Guard RIs in the Settings->Terminal dialog.
+
+v0.507
+Fixed bug, preventing 'Send to Terminal' and 'Send Selected' from being shown in the scratchpad right-click context menu.
+Added feature, added MESSAGES folder file list to Scratchpad tab, double click to open file.
+Added feature, added toolbar(new, open, save) to scratchpad.
+Added feature, file managment to Scratchpad.
+
+v0.506
+Fixed bug, OpenSSL not installed caused update failure.
+
+v0.505
+Fixed bug, closing coverave area caused crash in specific situation. (issue 6)
+Added feature, link to Issue Tracker - github.
+Added feature, send encrypted debug logfile to Alex Pennington (aar4te@organicengineer.com).
+
 v0.504
  - Fixed bug, closing overlay button cause crash in specific situations.
  - Changed distance unit to miles.

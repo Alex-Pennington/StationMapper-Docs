@@ -131,3 +131,5 @@ Refer to v3Terminal documentation provided by MSCv3 suite for documentation of t
 	 	 - Location to automatically store received text.
  - Auto-Import Roster
  	 - Automatically imports the turnover roster produced by NCSPro.exe and the roster produced by ACP Deluxe NCS.exe
+ - Guarded RI
+ 	 - This setting is used to generate the QSL-RI response.
