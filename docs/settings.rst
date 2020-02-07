@@ -17,11 +17,9 @@ DarkBlue
 
 .. image:: ../images/SMapper_v6_QSS_Dark_Blue_Scratchpad_Tab_COMSPOT.PNG
    :width: 758
-Dark Orange
+.. raw:: latex
 
-.. image:: ../images/SMapper_v6_QSS_Orange_Scratchpad_Tab_COMSPOT.PNG
-   :width: 758
-
+    \newpage   
  - Select NCS Application
 	 - Choose from:
 		 - ACP Deluxe NCS
