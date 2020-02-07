@@ -179,6 +179,7 @@ This tab is based on GPL Source code for v3Terminal provided at "http://www.usar
  - Differences from the v3Terminal included with MCSv3
 	- Orderwire text box includes spell checking.
 	- Settings have been moved to the Settings->Terminal dialog.
+
 .. raw:: latex
 
     \newpage
@@ -189,6 +190,7 @@ NOAA (Space Weather) Tab
    :width: 604
 
 NOAA - Space and Geophysical data is updated from the noaa website via proxy and requires an internet connection to www.kyhitech.com.
+
 .. raw:: latex
 
     \newpage
