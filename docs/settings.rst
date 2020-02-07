@@ -111,11 +111,11 @@ NCS Tab
 .. image:: ../images/Settings_NCS.png
    :width: 476
 
+Use this tab to enter settings for generating a COMSPOT.
+
 .. raw:: latex
 
     \newpage
-Use this tab to enter settings for generating a COMSPOT.
-
 Terminal Tab
 --------
 .. image:: ../images/Settings_Terminal.png
