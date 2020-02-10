@@ -12,6 +12,8 @@ Starting StationMapper
 
 NCS Tools
 --------
+ - StationMapper NCS Roster Tool (Recomended)
+ 	- See documentation for NCS Tab for information on how to use the internal roster tool.
  - ACP Deluxe
 	- Use ACPDeluxe as described in the instructions provided with it.
 	- Features
@@ -25,8 +27,6 @@ NCS Tools
 		- Planning to add closed and relayed by feature
 		- No additional features have been added at this time.
 		- SMv2 is depreciated software and further features are not being developed.
- - StationMapper NCS Roster Tool
- 	- See documentation for NCS Tab for information on how to use the internal roster tool.		
 
 Calculator
 --------
@@ -38,7 +38,7 @@ Calculator
 Propagation Graphs
 --------
 
-.. image:: ../images/SMapper_v_42_PropagationTab.png
+.. image:: ../images/SMapper_v_6_PropagationTab.png
    :width: 604
 Right clicking a graph will allow you to close it.
 
@@ -55,7 +55,7 @@ Right clicking a graph will allow you to close it.
 Coverage Area Overlays
 --------
 
-.. image:: ../images/SMapper_v_42_Coverage.png
+.. image:: ../images/SMapper_v_6_Coverage.png
    :width: 604
 Overlays are generated using the VOACAP tool created by Goerge Hand.
 
@@ -76,8 +76,8 @@ Using the Mouse
 
 Changing Maps
 --------
-	From the menu select Configure->Choose Map
-	- From this menu select the map you want displayed.
+From the Map tab
+	- select the map you would like displayed (R1 - R10, CONUS)
 	- Users can create their own maps using an EPSG:3857 projection saved as a bmp (bitmap) file.
 		- More info to follow.  This is not a simple process but users who are interested should start by downloading QGIS and creating a EPSG:3857 projection.
 
@@ -87,7 +87,7 @@ Changing Maps
 NCS Tab
 --------
 
-.. image:: ../images/SMapper_v5_NCS_Tab.PNG
+.. image:: ../images/SMapper_v6_NCS_Tab.PNG
    :width: 604
 
 To enable the built-in roster tool select StationMapper as the NCS Application from the general tab in the Settings dialog.
@@ -148,7 +148,7 @@ To enable the built-in roster tool select StationMapper as the NCS Application f
 Scratchpad Tab
 --------
 
-.. image:: ../images/SMapper_v5_Scratchpad_Tab.PNG
+.. image:: ../images/SMapper_v6_Scratchpad_Tab_COMSPOT.PNG
    :width: 604
 
 Use this area to take notes prepare traffic for relay.
@@ -179,3 +179,30 @@ This tab is based on GPL Source code for v3Terminal provided at "http://www.usar
  - Differences from the v3Terminal included with MCSv3
 	- Orderwire text box includes spell checking.
 	- Settings have been moved to the Settings->Terminal dialog.
+
+.. raw:: latex
+
+    \newpage
+NOAA (Space Weather) Tab
+--------
+
+.. image:: ../images/SMapper_v_6_NOAATab.png
+   :width: 604
+
+NOAA - Space and Geophysical data is updated from the noaa website via proxy and requires an internet connection to www.kyhitech.com.
+
+.. raw:: latex
+
+    \newpage
+Library Tab
+--------
+
+.. image:: ../images/SMapper_v_6_LibraryTab.png
+   :width: 604
+
+Concept of operation:  The library tab in essence is a file explorer window.  Double clicking on a file has the same effect as doublclicking a file in windows explorer (i.e. clicking a pdf opens Adobe, clicking a pickture opens MS Paint) as defined by your windows settings.  Files are added and updated by the use of service codes.  The service code ALL_MARS is added by default.  The ALL_MARS library contains the AM5 and ACP document sets.  When these files are updated on the website www.usarmymars.org they will be updated in the library.
+
+As an example: The service code KY_MARS, passphrase protected, is being used to publish the NCS and Message Center schedules.  When the KY staff wish to make an update to the library they can use the feature:
+
+.. image:: ../images/SMapper_v_6_Debug.png
+   :width: 279
