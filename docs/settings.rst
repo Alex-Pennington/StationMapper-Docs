@@ -10,6 +10,10 @@ General Parameters Tab
 .. image:: ../images/Settings_General.png
    :width: 476
 General
+ - Select QSS File
+	 - Choose from any file in the C:\MSC\QStyleSheets folder:
+		 - Allows users with visual imparments to select styles that work for them.
+
  - Select NCS Application
 	 - Choose from:
 		 - ACP Deluxe NCS
@@ -71,9 +75,6 @@ Station
     \newpage
 Weather Tab
 --------
-
-.. image:: ../images/Settings_Weather.png
-   :width: 476
 Weather data & imagery powered by AerisWeather.
  - Radar Checkbox
 	 - Displays weather radar overlay on map.
@@ -85,19 +86,13 @@ Weather data & imagery powered by AerisWeather.
 	 - Displays the numbers of strikes withing the summary radius for the last 5 minute period, updating every 5 minutes.
  - Summary Raduis
 	 - Set to a value bettween 50 and 800 miles.  Used with lightning summary.
- - Signup for IDs
-	 - Opens URL to signup for API access tokens.
- - AccessID
-	 - Provided with AerisWeather.com developer account.
- - SecretID
-	 - Provided with AerisWeather.com developer account.
 
 .. raw:: latex
 
     \newpage
 Database Tab
 --------
-.. image:: ../images/Settings_Database_v0_50.png
+.. image:: ../images/Settings_Database_v0_6.png
    :width: 476
 This tab identifies the databases that have been imported and the time of their last modification.  When these files are updated StationMapper will detect the update and import the new database.
  - address.csv
@@ -113,10 +108,32 @@ This tab identifies the databases that have been imported and the time of their 
     \newpage
 NCS Tab
 --------
+.. image:: ../images/Settings_NCS.png
+   :width: 476
 
 Use this tab to enter settings for generating a COMSPOT.
 
+.. raw:: latex
+
+    \newpage
 Terminal Tab
 --------
-
+.. image:: ../images/Settings_Terminal.png
+   :width: 476
 Refer to v3Terminal documentation provided by MSCv3 suite for documentation of the settings.  Complete documentation of this implimentation will follow when time permits.
+ - Show Terminal
+	 - Displays weather radar overlay on map.
+ - Guarded Call Sign
+	 - Displays a small circle on the map denoting the strike location Updates every 5 minutes with information for the last 5 minute period.
+ - Position ID
+	 - Displays an overlay of any cyclone tracks and error cones that are active.
+ - Save to disk
+	 - Save all received text to files in the received file folder.
+	 - Must Contain VZCZMMM
+		 - Received text must contain VZCZMMM to be safed.  This attempts to filter out non-message traffic.
+	 - Received file folder:
+	 	 - Location to automatically store received text.
+ - Auto-Import Roster
+ 	 - Automatically imports the turnover roster produced by NCSPro.exe and the roster produced by ACP Deluxe NCS.exe
+ - Guarded RI
+ 	 - This setting is used to generate the QSL-RI response.
